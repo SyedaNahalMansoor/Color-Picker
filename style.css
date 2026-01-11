@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 710px;
+    width: auto;
+    
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+}
+
+.first-div{
+   margin-top: 7rem;
+   font-size: 1.5rem;
+}
+
+input{
+    margin-left: 140px;
+    margin-top: 20px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#colorBox {
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+
+#colorValue {
+    font-weight: bold;
+    margin-left: 70px;
+
+}
